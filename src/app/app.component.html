@@ -227,6 +227,15 @@
       </svg>
       <h1>Hello, {{ title }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
+      <hr>
+      <nav>
+        <ul>
+          <li><a routerLink="/">Login</a></li>
+          <li><a routerLink="home">Home</a></li>
+          <li><a routerLink="reactive-programming">Reactive Programming</a></li>
+        </ul>
+      </nav>
+      <hr>
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
@@ -333,4 +342,4 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 
-<router-outlet />
+<router-outlet></router-outlet>
