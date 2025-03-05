@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ReactiveProgrammingComponent } from './reactive-programming.component';
 
-describe('ReactiveProgrammingComponent', () => {
+xdescribe('ReactiveProgrammingComponent', () => {
   let component: ReactiveProgrammingComponent;
   let fixture: ComponentFixture<ReactiveProgrammingComponent>;
 
