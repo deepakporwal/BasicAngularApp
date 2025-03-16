@@ -26,3 +26,4 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: echo "Jai Shree Krishna / Shree Radhe Radhe"
+    - run: npm run test:ci
