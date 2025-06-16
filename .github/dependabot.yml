@@ -5,7 +5,14 @@
 
 version: 2
 updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "npm"
+    directory: "/" # Location of package.json and package-lock.json
     schedule:
       interval: "weekly"
+    open-pull-requests-limit: 5
+    ignore:
+      - dependency-name: "zone.js"
+        versions: ["0.11.4"] # Example of ignoring a specific version, remove if not needed
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
